@@ -16,5 +16,4 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.document.documentElement.lang = 'es-ES';
   }
-
 }
