@@ -15,6 +15,7 @@ import { ChartJSdemoComponent } from './components/chart-jsdemo/chart-jsdemo.com
 import { MaterialModule } from './material/material.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ChartsModule } from 'ng2-charts';
+import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ChartsModule } from 'ng2-charts';
     ListComponent,
     MaterialUIComponent,
     BootstrapDemoComponent,
-    ChartJSdemoComponent
+    ChartJSdemoComponent,
+    LifecycleComponent
   ],
   imports: [
     BrowserModule,

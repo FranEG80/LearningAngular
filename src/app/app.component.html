@@ -6,8 +6,20 @@
     <app-list></app-list>
 
 -->
+
+<!-- Lifecycle demo-->
+<div class="container">
+  <p>Change this field:</p>
+  <input type="text" [(ngModel)]="name">
+  <hr/> Historial
+</div>
+<app-lifecycle [name]="name"></app-lifecycle>
+
+<!-- MaterialUI && Bootstrap  -->
+<br>
 <app-material-ui></app-material-ui>
 <br>
 <app-bootstrap-demo></app-bootstrap-demo>
 <br>
 <app-chart-jsdemo></app-chart-jsdemo>
+
