@@ -1,0 +1,33 @@
+<h1>DATA BINDING</h1>
+<h2>ONE-WAY</h2>
+<p>
+  Esto es un  'ONE WAY' {{name}}. El añdir la variable se llama interpolacion y se usa con dobles llaves <br>
+  Si se hace alguna operación matemática dentro de la interpolacion se llama 'Template expresion' y siempre retornará un string
+</p>
+
+<h2>TWO-WAY</h2>
+<p>
+  Esto es un 'TWO WAY', la estructura normal es [(event-target)] ='property'
+  <input [(ngModel)]="color" />
+  <br>
+  Fondo: <input [(ngModel)]="colorBg" /><br>
+  Esta estructura también se llama property binding
+</p>
+
+<div [ngStyle]="{'color': color, 'background-color': colorBg, 'padding': '23px'}" >
+  Aprendiendo Two-way data binding
+</div>
+
+<p>Esto es una prueba para habilitar/deshabilitar un botón <br>
+<button [disabled]="habilitar">Hola mundo</button>
+</p>
+
+<h2>Event Biding</h2>
+La estructura para un evento es (evento)="funcion()"
+<button (click)="onSave()">Save</button>
+<br>
+<p>
+<input (input)="onInput($event)">
+</p>
+<label>minusculas:: {{resultMinusculas}}</label><br>
+<label>MAYUSCULAS:: {{result}}</label>
