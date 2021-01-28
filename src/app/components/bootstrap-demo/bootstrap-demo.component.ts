@@ -4,7 +4,7 @@ import { NgbCalendar, NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-bootstrap-demo',
   templateUrl: './bootstrap-demo.component.html',
-  styleUrls: ['./bootstrap-demo.component.css']
+  styleUrls: ['./bootstrap-demo.component.scss']
 })
 export class BootstrapDemoComponent implements OnInit {
 

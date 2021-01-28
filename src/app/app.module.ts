@@ -16,6 +16,9 @@ import { MaterialModule } from './material/material.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ChartsModule } from 'ng2-charts';
 import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
+import { VariosComponent } from './components/varios/varios.component';
+import { DecoratorsComponent } from './components/decorators/decorators.component';
+import { ListCustomersComponent } from './components/list-customers/list-customers.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
     MaterialUIComponent,
     BootstrapDemoComponent,
     ChartJSdemoComponent,
-    LifecycleComponent
+    LifecycleComponent,
+    VariosComponent,
+    DecoratorsComponent,
+    ListCustomersComponent
   ],
   imports: [
     BrowserModule,

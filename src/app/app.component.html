@@ -7,19 +7,36 @@
 
 -->
 
-<!-- Lifecycle demo-->
+<!-- Lifecycle demo
+
 <div class="container">
   <p>Change this field:</p>
   <input type="text" [(ngModel)]="name">
   <hr/> Historial
 </div>
 <app-lifecycle [name]="name"></app-lifecycle>
+-->
 
-<!-- MaterialUI && Bootstrap  -->
+<!--MaterialUI && Bootstrap
+
 <br>
 <app-material-ui></app-material-ui>
 <br>
 <app-bootstrap-demo></app-bootstrap-demo>
 <br>
 <app-chart-jsdemo></app-chart-jsdemo>
+-->
 
+<!-- Decorators
+
+<div class="container">
+  <ul>
+    <li *ngFor="let ciudad of ciudades">
+      {{ciudad['nombre']}}
+      <app-decorators [city]="ciudad" (mySalida)="onHola($event)" ></app-decorators>
+    </li>
+  </ul>
+</div>
+-->
+
+<app-list-customers></app-list-customers>
